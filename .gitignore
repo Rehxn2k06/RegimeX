@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pkl
+
+# Data (keep only final frozen datasets)
+dataset/*.csv
+!dataset/df_train.csv
+!dataset/df_test.csv
+
+# Environments
+.venv/
+.env/
+
+# OS
+.DS_Store
+.ipynb_checkpoints/
+notebook/.ipynb_checkpoints/

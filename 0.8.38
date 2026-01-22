@@ -1,0 +1,6 @@
+Requirement already satisfied: hdbscan in c:\users\rehan imtiyaj mulla\anaconda3\lib\site-packages (0.8.41)
+Requirement already satisfied: numpy<3,>=1.20 in c:\users\rehan imtiyaj mulla\anaconda3\lib\site-packages (from hdbscan) (1.26.4)
+Requirement already satisfied: scipy>=1.0 in c:\users\rehan imtiyaj mulla\anaconda3\lib\site-packages (from hdbscan) (1.13.1)
+Requirement already satisfied: scikit-learn>=1.6 in c:\users\rehan imtiyaj mulla\anaconda3\lib\site-packages (from hdbscan) (1.8.0)
+Requirement already satisfied: joblib>=1.0 in c:\users\rehan imtiyaj mulla\anaconda3\lib\site-packages (from hdbscan) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.2.0 in c:\users\rehan imtiyaj mulla\anaconda3\lib\site-packages (from scikit-learn>=1.6->hdbscan) (3.5.0)
