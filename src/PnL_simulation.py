@@ -18,7 +18,11 @@ df_baseline["strategy_return"]=df_baseline["position"]*df_baseline["return"]
 df_baseline["cummulative_strategy_returns"]=df_baseline["strategy_return"].cumsum()
 
 
-plt.plot(df_baseline["Date"],df_baseline["cummulative_strategy_returns"],color="red")
-plt.plot(df_baseline["Date"],df_regime["cummulative_strategy_returns"],color="blue")
+plt.plot(df_baseline["Date"],df_baseline["cummulative_strategy_returns"],label="Baseline system",color="red")
+plt.plot(df_baseline["Date"],df_regime["cummulative_strategy_returns"],label="Regime-aware system",color="blue")
+plt.title("Cumulative Returns — Baseline vs Regime-Aware (Test Set)")
+plt.xlabel("Date")
+plt.ylabel("Cumulative Return")
+plt.legend()
 plt.tight_layout() 
 plt.show()
